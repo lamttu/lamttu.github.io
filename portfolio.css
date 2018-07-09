@@ -1,0 +1,176 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+body{
+	padding-top: 50px;
+	font-family: Signika;
+}
+header{
+	margin: 0 auto 0 auto;
+}
+section:nth-of-type(odd){
+	background: #EFEFEF;
+}
+section{
+	text-align: center;	
+	padding: 3% 0;
+	min-height: 80vh;
+}
+section h1{
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+	color: #A9A9A9;	
+}
+a:hover{
+	color: #FF3B3F;
+}
+h1, h3{
+	text-transform: uppercase;
+}
+h1{
+	color: #545454;
+	font-size: 3em;
+	width: 33%;
+	margin: auto;
+	padding-top: 5%;
+	text-align: center;
+}
+ul{
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.text-content{	
+	background-color: #CAEBF2;
+	line-height: 1.5;
+	font-size: 1em;
+}
+#aboutme p{
+	margin: 5%;
+	height: 100%;
+}
+
+.img-content, .group{
+	margin: 3% auto;
+}
+#myworks{
+	border-top: 10px solid #FF3B3F;
+	position: relative;
+}
+.red-arrow-down{
+	position: absolute;
+	top: 10px;
+	left: 49%;
+}
+.view-all{
+	color: #FF3B3F;
+	text-transform: uppercase;
+	text-align: right;
+	margin-right: 5%;
+}
+/*Skill*/
+.col-container{
+	display: table;
+  	width: 100%;
+  	margin-top: 5%;
+}
+.left{
+	padding-top: 20px;
+	background-color: #FF3B3F;
+	color:  #EFEFEF;
+}
+.right{
+	padding-top: 20px;
+	background-color: #CAEBF2;
+	color: #545454;
+}
+
+.skills h3{ 
+	padding-top: 3%
+}
+.fa-arrow-alt-circle-down{
+	color: #FF3B3F;
+}
+.arrow-down{
+	font-size: 2em;
+	margin-top: 5%;
+	transform: translate();
+}
+/*Contact*/
+.email{
+	border: 2px solid #CAEBF2;
+	border-radius: 5px;
+	background: #FF3B3F;
+	width: 20%;
+	height: 50px;
+	margin: 5% auto;
+	padding-top: 12px;
+}
+
+.email a{
+	color: #FFFFFF;
+	text-align: center;
+}
+.row{
+	margin-right: 0;
+	margin-left: 0;
+}
+#contact{
+	padding-top: 10%;
+}
+.work{
+	margin-top: 4%;
+}
+.container-fluid{
+	padding-left: 0;
+	padding-right: 0;
+}
+/*footer*/
+footer{
+	text-align: center;
+	border-top: 1px solid #EFEFEF;
+	padding: 2%;
+}
+footer a{
+	color: #CAEBF2;
+	font-size: 2em;
+}
+
+.image-thumb{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+}
+.work .btn{
+	color: #545454;
+	border: 2px solid #CAEBF2;
+}
+.work .btn:hover{
+	background-color: none;
+	color: #FF3B3F;
+}
+/*.work .btn{	
+	color: #545454;
+	text-align: center;
+	border-radius: 5px;
+	background: #CAEBF2;
+}
+.card-body{
+	background-color: #EFEFEF;
+}*/
+.card-title{
+	text-transform: uppercase;
+}
+#work1{
+	background-image: url("./assets/purrfect_landing.png")
+}
+#work2{
+	background-image: url("./assets/collegeGame.png")
+}
+#work3{
+	background-image: url("./assets/sort-visualiser.png")
+}
